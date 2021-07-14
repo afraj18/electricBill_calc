@@ -82,10 +82,10 @@
                   </Group>
                   <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="cType_cb" min="-2" max="-2" attributes="0"/>
                       <Component id="cID_cb" pref="213" max="32767" attributes="0"/>
                       <Component id="fName_tf" alignment="0" max="32767" attributes="0"/>
                       <Component id="address_tf" alignment="0" max="32767" attributes="0"/>
+                      <Component id="cType_cb" alignment="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace pref="21" max="32767" attributes="0"/>
               </Group>
@@ -272,13 +272,13 @@
                       <Component id="jLabel18" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="totalBill_lbl" min="-2" max="-2" attributes="0"/>
-                      <Component id="fc_lbl" min="-2" max="-2" attributes="0"/>
-                      <Component id="fuel_lbl" min="-2" max="-2" attributes="0"/>
-                      <Component id="tUnitCh_lbl" min="-2" pref="336" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tUnitCh_lbl" pref="336" max="32767" attributes="0"/>
+                      <Component id="fuel_lbl" alignment="0" max="32767" attributes="0"/>
+                      <Component id="fc_lbl" alignment="0" max="32767" attributes="0"/>
+                      <Component id="totalBill_lbl" alignment="0" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="135" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -348,7 +348,6 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="jLabel19"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="fuel_lbl">
@@ -356,7 +355,6 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="jLabel20"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="fc_lbl">
@@ -364,7 +362,6 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="jLabel21"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="totalBill_lbl">
@@ -372,7 +369,6 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="jLabel22"/>
           </Properties>
         </Component>
       </SubComponents>

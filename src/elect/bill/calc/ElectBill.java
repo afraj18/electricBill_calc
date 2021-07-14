@@ -99,10 +99,10 @@ public class ElectBill extends javax.swing.JFrame {
                     .addComponent(jLabel13))
                 .addGap(57, 57, 57)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(cType_cb, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(cID_cb, 0, 213, Short.MAX_VALUE)
                     .addComponent(fName_tf)
-                    .addComponent(address_tf))
+                    .addComponent(address_tf)
+                    .addComponent(cType_cb, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(21, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
@@ -178,16 +178,12 @@ public class ElectBill extends javax.swing.JFrame {
         jLabel18.setText("Total Bill");
 
         tUnitCh_lbl.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        tUnitCh_lbl.setText("jLabel19");
 
         fuel_lbl.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        fuel_lbl.setText("jLabel20");
 
         fc_lbl.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        fc_lbl.setText("jLabel21");
 
         totalBill_lbl.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        totalBill_lbl.setText("jLabel22");
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -201,12 +197,12 @@ public class ElectBill extends javax.swing.JFrame {
                     .addComponent(jLabel17)
                     .addComponent(jLabel18))
                 .addGap(44, 44, 44)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(totalBill_lbl)
-                    .addComponent(fc_lbl)
-                    .addComponent(fuel_lbl)
-                    .addComponent(tUnitCh_lbl, javax.swing.GroupLayout.PREFERRED_SIZE, 336, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(tUnitCh_lbl, javax.swing.GroupLayout.DEFAULT_SIZE, 336, Short.MAX_VALUE)
+                    .addComponent(fuel_lbl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(fc_lbl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(totalBill_lbl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(135, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
